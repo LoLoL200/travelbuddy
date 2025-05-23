@@ -21,19 +21,8 @@ class _PlaceCard extends State<PlaceCard>{
             category: 'Cathedral', 
             star: 4.5, 
             image: 'assets/images/defoult.jpg', 
-            lands: 'koln'),
-            
-            
+            lands: 'koln'), 
         ],
       );
-          
-     
-    
-   
-      
-      
-        
-      
-    
   }
 }

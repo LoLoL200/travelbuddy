@@ -42,7 +42,6 @@ class Place extends StatelessWidget {
                        land: lands,
                        category: category
                        )));  
-
             }, 
             child: Column(
                   children: [
@@ -51,7 +50,7 @@ class Place extends StatelessWidget {
                            child: Text(name,
                            style: TextStyle(
                            fontSize: 24,
-                           color: Colors.black
+                           
               ),),
             ),
            Row(
@@ -62,7 +61,7 @@ class Place extends StatelessWidget {
               children: <Widget>[
                 Text('Category:$category',
                 style: TextStyle(
-                  color: Colors.black,
+                  
                   fontSize: 20
                   ),
                   ),
@@ -73,7 +72,7 @@ class Place extends StatelessWidget {
                   children:<Widget> [
                   Text('$star', 
                   style: TextStyle(
-                    color: Colors.black
+                   
                   )),
                   const SizedBox(height: 10),
                   Icon(Icons.star,color: Colors.amber,),

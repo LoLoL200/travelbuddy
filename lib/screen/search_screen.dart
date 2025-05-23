@@ -19,7 +19,7 @@ class _SearchScreen extends State<SearchScreen>{
       child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        //Search
+//Search
           TextFormField(
               
               decoration: const InputDecoration(
@@ -35,16 +35,16 @@ class _SearchScreen extends State<SearchScreen>{
                 });
                },
     ),
-    //Filtres for Place
+//Filtres for Place
     BoxSized,
     Text('Filtres',style: textStyle ),
     BoxSized,
-    //Category
+//Category
     ElevatedButton(
       onPressed: (){}, 
       child: Text('All Category')),
      SizedBox(height: 15,),
-     //Stars
+//Stars
      Text('Stars',style: textStyle),
      SizedBox(height: 12,),
      Row(
@@ -73,10 +73,6 @@ class _SearchScreen extends State<SearchScreen>{
       BoxSized,
       Text('Resoult', style: textStyle,),
       SizedBox(height: 15,)
-      // Card(
-      //   Place(category: ,)
-      // )
-
     ],
     ),
     );

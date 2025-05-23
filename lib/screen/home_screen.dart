@@ -21,13 +21,13 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   late List<Widget> _screens;
+  //List screen
   final List<String> _titles = [
     'Treval Buddy ',
     'Search',
     'Add Place',
     'Settings',
   ];
-
   final List<Widget> _appBarScreens = [
     HomeScreen(controller: ScrollController()),
      SearchScreen(),
@@ -94,17 +94,17 @@ class _HomeScreenState extends State<HomeScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.search), 
             label: 'Search',
-            backgroundColor: Color.fromARGB(255, 60, 94, 54)
+            backgroundColor: Color.fromARGB(255, 14, 83, 95)
             ),
              BottomNavigationBarItem(
             icon: Icon(Icons.add_box_rounded), 
             label: 'Add',
-            backgroundColor: Color.fromARGB(255, 56, 34, 4)
+            backgroundColor: Color.fromARGB(255, 6, 62, 107)
             ),
              BottomNavigationBarItem(
             icon: Icon(Icons.person), 
             label: 'Profile',
-            backgroundColor: Color.fromARGB(255, 5, 140, 150)
+            backgroundColor: Color.fromARGB(255, 5, 109, 150)
             ),
           
         ],
